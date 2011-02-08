@@ -1,0 +1,122 @@
+/*-----------------------------------------------------------------------------
+  Style Sheet
+  -----------------------------------------------------------------------------
+  
+  site url:  http://elsevierauthors.com/
+  copyright: (c) 2011 Elsevier Inc. All Rights Reserved.
+  
+  version:   1.0 / CSS 3
+  date:      2011
+  author:    Daniel Korte
+  email:     DanielK (at) theswitch.us
+  
+  notes:     
+  hex guide:                                                     #xxxxxx
+-----------------------------------------------------------------------------*/
+
+/* = Layout
+-----------------------------------------------------------------------------*/
+
+body {
+  background-color: #808285; }
+
+#container {
+  width: 1030px;
+  margin: 0 auto;
+  background: #808285 url(../images/background-repeat-y.gif) repeat-y 0px 0px; }
+
+header {
+  position: relative;
+  z-index: 1;
+  width: 1030px;
+  height: 374px;
+  background: #808285 url(../images/header-background.jpg) no-repeat 0px 0px; }
+
+#container section {
+  z-index: 2;
+  position: relative;
+  margin-top: -32px;
+  padding-left: 116px; }
+
+article#welcome {
+  float: left;
+  width: 565px; }
+
+article#welcome div.inner {
+  position: relative;
+  margin: 0.65em 0 0.15em 38px; }
+
+article.sidebar {
+  float: right;
+  clear: right;
+  width: 304px;
+  background-color: #14A8E0; }
+
+article.sidebar div.inner {
+  margin: 28px 30px 0px; }
+
+article#step-one div.inner {
+  border-bottom: 4px solid #148EBE; }
+
+article#step-two div.inner {
+  margin-bottom: 28px; }
+
+aside#get-fifteen-percent-off {
+  clear: left; }
+
+footer {
+  position: relative;
+  margin: 0 32px 0 116px;
+  padding-top: 21px;
+  background-color: #CDCCCB; }
+
+footer div.inner {
+  clear: both;
+  padding: 20px 12px 6px 0; }
+
+
+/* = Forms
+-----------------------------------------------------------------------------*/
+
+form {
+  display: inline; }
+
+textarea {
+  width: 100%; }
+
+
+/* = Utilities
+-----------------------------------------------------------------------------*/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.txt-box-inner {
+  padding: 1em;
+  word-wrap: break-word; }
+
+.semantics-only {
+  display: block;
+  text-indent: -9999px; }
+
+.img-left {
+  float: left;
+  margin: 4px 10px 4px 0; }
+
+.img-right {
+  float: right;
+  margin: 4px 0 4px 10px; }
+
+::selection { background: #FBB040; }
+::-moz-selection { background: #FBB040; }
+
+img::selection { background: transparent; }
+img::-moz-selection { background: transparent; }
+
+
+/* End of this stylesheet
+-----------------------------------------------------------------------------*/

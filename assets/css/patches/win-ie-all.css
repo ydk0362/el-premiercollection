@@ -1,0 +1,35 @@
+/*-----------------------------------------------------------------------------
+  Internet Explorer Catch All Style Sheet
+  -----------------------------------------------------------------------------
+  
+  site url:  http://elsevierauthors.com/http://
+  copyright: (c) 2011 Elsevier Inc. All Rights Reserved.
+  
+  version:   1.0 / CSS 3
+  date:      2011
+  author:    Daniel Korte
+  email:     DanielK (at) theswitch.us
+  
+  notes:     
+-----------------------------------------------------------------------------*/
+
+/* = Patches
+-----------------------------------------------------------------------------*/
+
+textarea {
+  overflow: auto; }
+
+/* Tell IE7+ to scale images using a more attractive method */
+img {
+  -ms-interpolation-mode: bicubic; }
+
+/* makes the negative text-indent work in IE */
+.bg-img-form-button {
+  text-transform: uppercase; }
+
+.clearfix {
+  zoom: 1; }
+
+
+/* End of this stylesheet
+-----------------------------------------------------------------------------*/

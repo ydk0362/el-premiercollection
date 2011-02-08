@@ -1,0 +1,25 @@
+/*-----------------------------------------------------------------------------
+  Internet Explorer 5 Style Sheet
+  -----------------------------------------------------------------------------
+  
+  site url:  http://elsevierauthors.com/http://
+  copyright: (c) 2011 Elsevier Inc. All Rights Reserved.
+  
+  version:   1.0 / CSS 3
+  date:      2011
+  author:    Daniel Korte
+  email:     DanielK (at) theswitch.us
+  
+  notes:     
+-----------------------------------------------------------------------------*/
+
+/* = Patches
+-----------------------------------------------------------------------------*/
+
+.ie5-ie5.5-box-model-fix {
+  \width: 900px; /* width + border + padding */
+  w\idth: 700px; /* width */ }
+
+
+/* End of this stylesheet
+-----------------------------------------------------------------------------*/

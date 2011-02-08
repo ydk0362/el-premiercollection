@@ -1,0 +1,41 @@
+/*-----------------------------------------------------------------------------
+  Internet Explorer 6 and Below Style Sheet
+  -----------------------------------------------------------------------------
+  
+  site url:  http://elsevierauthors.com/http://
+  copyright: (c) 2011 Elsevier Inc. All Rights Reserved.
+  
+  version:   1.0 / CSS 3
+  date:      2011
+  author:    Daniel Korte
+  email:     DanielK (at) theswitch.us
+  
+  notes:     
+-----------------------------------------------------------------------------*/
+
+/* = Patches
+-----------------------------------------------------------------------------*/
+
+/* Fix scrolling render bug without using the filter property */
+html {
+  background: url(null) fixed no-repeat; }
+
+body {
+  text-align: center; }
+
+#container {
+  text-align: left; }
+
+.min-height-emulation {
+  height: 500px; }
+
+/* Fix the double margin float bug */
+.float-left-with-left-margin {
+  display: inline; }
+
+.png-img {
+  behavior: url('/assets/css/patches/iepngfix.htc'); }
+
+
+/* End of this stylesheet
+-----------------------------------------------------------------------------*/

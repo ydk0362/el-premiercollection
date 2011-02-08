@@ -1,0 +1,24 @@
+/*-----------------------------------------------------------------------------
+  Mac Internet Explorer 5 Style Sheet
+  -----------------------------------------------------------------------------
+  
+  site url:  http://elsevierauthors.com/http://
+  copyright: (c) 2011 Elsevier Inc. All Rights Reserved.
+  
+  version:   1.0 / CSS 3
+  date:      2011
+  author:    Daniel Korte
+  email:     DanielK (at) theswitch.us
+  
+  notes:     
+-----------------------------------------------------------------------------*/
+
+/* = Patches
+-----------------------------------------------------------------------------*/
+
+.clearfix {
+  display: inline-table; }
+
+
+/* End of this stylesheet
+-----------------------------------------------------------------------------*/
